@@ -11,11 +11,10 @@ import com.springboot.dto.NewDTO;
 public class NewAPI {
 	  @PostMapping("/new") //@RequestMapping + Method
 	  
-      public NewDTO createNew(@RequestBody NewDTO model) {
-
+      public NewDTO createNew(@RequestBody NewDTO model) { 
               return model;
 
-      }
+      } 
 
 	  @PutMapping
 	  public NewDTO updateNew(@RequestBody NewDTO model) {
